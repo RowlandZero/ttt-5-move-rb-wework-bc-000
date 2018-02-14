@@ -8,3 +8,5 @@ puts ""
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts display_board(board)
 
+puts "Enter a move"
+input = gets.strip
