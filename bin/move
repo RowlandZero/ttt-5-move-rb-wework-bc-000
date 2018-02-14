@@ -12,4 +12,4 @@ puts "Enter a move"
 input = gets.strip
 input_int = input_to_index(input)
 move(board, input_int)
-
+puts display_board(board)
