@@ -14,5 +14,6 @@ def input_to_index(input)
   index = input_int - 1
 end
 
-def move(board, user_input, icon="X")
+def move(board, position, icon="X")
+  board[position] = icon
 end
