@@ -10,5 +10,6 @@ end
 
 
 def input_to_index(input)
-  index = input.to_i
+  input_int = input.to_i
+  index = input_int - 1
 end
